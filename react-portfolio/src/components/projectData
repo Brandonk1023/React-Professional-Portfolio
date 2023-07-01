@@ -1,0 +1,38 @@
+export const projectData = [
+{
+    title: '',
+    link: '',
+    content: '',
+    image: '',
+},
+{
+    title: '',
+    link: '',
+    content: '',
+    image: '',
+},
+{
+    title: '',
+    link: '',
+    content: '',
+    image: '',
+},
+{
+    title: '',
+    link: '',
+    content: '',
+    image: '',
+},
+{
+    title: '',
+    link: '',
+    content: '',
+    image: '',
+},
+{
+    title: '',
+    link: '',
+    content: '',
+    image: '',
+},
+]

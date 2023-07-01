@@ -1,5 +1,4 @@
 import React from 'react';
-import headshot from '';
 
 const aboutMe =  () => {
     return (
