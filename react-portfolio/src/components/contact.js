@@ -1,23 +1,22 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 const contact = () => {
-    const [formState, setFormState] = useState({
-        name: '',
-        email: '',
-        messageContent: '',
-    })
-
-    const { name, emai, messageContent } = formState;
-
     return (
-        <section>
-            <div>
-                <h2>Contact Me</h2>
-                <form>
-
-                </form>
-            </div>
-        </section>
+        <div>
+            <h2>Contact Form</h2>
+            <p>Thank you for your interest in contacting me.  If you would like to speak to me or contact me please reach out to me using any of the following channels below.</p>
+            <ul>
+                <li>
+                    <a></a>
+                </li>
+                <li>
+                    <a></a>
+                </li>
+                <li>
+                    <a></a>
+                </li>
+            </ul>
+        </div>
     )
 }
 
