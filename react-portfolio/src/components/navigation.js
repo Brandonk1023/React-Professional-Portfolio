@@ -1,6 +1,6 @@
 import React from 'react';
 
-const navigation =  ({ selectedSection, setSelectedSection}) => {
+const Navigation =  ({ selectedSection, setSelectedSection}) => {
     const sections = ['About Me', 'Portfolio', 'Contact', 'Resume']
 
     return (
@@ -18,4 +18,4 @@ const navigation =  ({ selectedSection, setSelectedSection}) => {
     )
 }
 
-export default navigation
+export default Navigation

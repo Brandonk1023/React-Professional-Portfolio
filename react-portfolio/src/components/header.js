@@ -1,6 +1,6 @@
 import React from 'react';
 import headShot from '';
-const header = () => {
+const Header = () => {
     return (
         <header>
             <h1>Brandon Kilgore </h1>
@@ -9,4 +9,4 @@ const header = () => {
     )
 }
 
-export default header;
+export default Header;

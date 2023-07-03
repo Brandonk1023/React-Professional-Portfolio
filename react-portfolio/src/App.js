@@ -1,23 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import Header from './components/Header';
+import Navigation from './components/Navigation';
+import AboutMe from './components/AboutMe';
+import Portfolio from './components/Portfolio';
+import Contact from './components/Contact';
+import Resume from './components/Resume';
+import Footer from './components/Footer';
+import './index.css';
 
-function App() {
+
+const App = () => {
+
+  const [selectedSection, setSelectedSection] = useState('About Me');
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Navigation selectedSection={selectedSection} setSelectedSection={setSelectedSection} />
+      <main>
+        {selectedSection === 'About Me' && <AboutMe />}
+        {selectedSection === 'Portfolio' && <Portfolio />}
+        {selectedSection === 'Contact' && <Contact />}
+        {selectedSection === 'Resume' && <Resume />}
+      </main>
+      <Footer />
     </div>
   );
 }

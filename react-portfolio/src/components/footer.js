@@ -2,7 +2,7 @@ import React from 'react';
 import linkedinLogo from '';
 import githubLogo from '';
 
-const footer = () => {
+const Footer = () => {
     return (
         <footer>
             <div>
@@ -17,4 +17,4 @@ const footer = () => {
     )
 }
 
-export default footer;
+export default Footer;
