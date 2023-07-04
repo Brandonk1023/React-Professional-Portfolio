@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import Header from './components/Header';
-import Navigation from './components/Navigation';
-import AboutMe from './components/AboutMe';
-import Portfolio from './components/Portfolio';
-import Contact from './components/Contact';
-import Resume from './components/Resume';
-import Footer from './components/Footer';
+import Header from './components/header';
+import Navigation from './components/navigation';
+import AboutMe from './components/aboutMe';
+import Portfolio from './components/portfolio';
+import Contact from './components/contact';
+import Resume from './components/resume';
+import Footer from './components/footer';
 import './index.css';
 
 
