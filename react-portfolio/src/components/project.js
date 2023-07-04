@@ -1,29 +1,18 @@
-import React from "react";
+import React from 'react';
 
-const Project = (props) => {
-
-   let title = props.title;
-   let content = props.content;
-   let link = props.link;
-   let image = props.image;
-   
+const Project = ({ project }) => {
     return (
-        <div>
+        <div >
+            <img src={project.image} alt={project.title} />
             <div>
-            <figure><img src={} alt=/></figure>
-            <div >
-                <h2 ></h2>
-                <p></p>
-                <div >
-                    <a>
-                    </a>
+                <h2>{project.title}</h2>
+                <div>
+                    <a href={project.link} target="_blank" rel="noreferrer" >View Project</a>
+                    <a href={project.github} target="_blank" rel="noreferrer" >GitHub</a>
                 </div>
             </div>
-            </div>
         </div>
-
-    
-    )
+    );
 }
 
 export default Project;
