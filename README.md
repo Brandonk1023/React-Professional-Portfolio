@@ -18,7 +18,7 @@ No installation is needed to view this portfolio application page.  User only ne
 
 ## Deployment Link
 
-https://brandonk1023.github.io/React-Professional-Portfolio/
+https://whispering-taiga-32488-3bcd433c5113.herokuapp.com/
 
 ## Usage
 
@@ -30,8 +30,17 @@ To use this application the user only needs to click on the deployment link abov
     ```
 
 ## Credits
+Heroku Documentation:
+https://devcenter.heroku.com/categories/reference
 
+React Documentation:
+https://legacy.reactjs.org/docs/getting-started.html
 
+Tailwind Documentation:
+https://v2.tailwindcss.com/docs
+
+Daisyui Documentation:
+https://daisyui.com/
 
 ## License
 
