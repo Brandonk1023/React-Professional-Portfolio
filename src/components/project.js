@@ -2,7 +2,7 @@ import React from 'react';
 
 const Project = ({ project }) => {
     return (
-        <div className="card w-96 glass">
+        <div className="card w-96 glass grid grid-cols-4 gap-4">
             <img src={project.image} alt={project.title} />
             <div>
                 <h2>{project.title}</h2>
