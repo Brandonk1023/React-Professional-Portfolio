@@ -8,7 +8,7 @@ const Navigation =  ({ selectedSection, setSelectedSection}) => {
             <ul>
                 {sections.map(section => (
                     <li key={section}>
-                        <button onClick={() => setSelectedSection(section)} >
+                        <button class="btn btn-primary" onClick={() => setSelectedSection(section)} >
                             {section}
                         </button>
                     </li>

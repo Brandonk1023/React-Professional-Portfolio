@@ -2,7 +2,7 @@ import React from 'react';
 
 const Project = ({ project }) => {
     return (
-        <div >
+        <div className="card w-96 glass">
             <img src={project.image} alt={project.title} />
             <div>
                 <h2>{project.title}</h2>
