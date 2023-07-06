@@ -48,9 +48,9 @@ const Portfolio = () => {
         ]);
 
     return (
-        <section>
-            <h2>Portfolio</h2>
-            <div>
+        <section class="flex flex-row justify-center">
+            <h2 class="justify">Portfolio</h2>
+            <div class="flex flex-col">
                 {projects.map((project, index) => (
                     <Project key={index} project={project} />
                 ))}
