@@ -24,10 +24,11 @@ https://whispering-taiga-32488-3bcd433c5113.herokuapp.com/
 
 To use this application the user only needs to click on the deployment link above.  They will then be taken to the deployed portfolio application page.
 
+From there the user can navigate to different sections to view different parts of site.
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+
+![About Me Screenshot](assets/AboutMeScreenShot.jpg)
+
 
 ## Credits
 Heroku Documentation:
