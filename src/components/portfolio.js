@@ -56,7 +56,7 @@ const Portfolio = () => {
 
     return (
         <section class="flex flex-row justify-center">
-            <h2 class="justify">Portfolio</h2>
+           {/*  <h2 class="justify">Portfolio</h2> */}
             <div class="flex flex-col">
                 {projects.map((project, index) => (
                     <Project key={index} project={project} />

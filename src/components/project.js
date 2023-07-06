@@ -7,8 +7,8 @@ const Project = ({ project }) => {
             <div class="flex flex-col justify-around">
                 <h2>{project.title}</h2>
                 <div class="flex flex-col justify-around">
-                    <a href={project.link} target="_blank" rel="noreferrer" >View Project</a>
-                    <a href={project.github} target="_blank" rel="noreferrer" >GitHub</a>
+                    <a className='link link-primary' href={project.link} target="_blank" rel="noreferrer" >View Project</a>
+                    <a className="link link-secondary" href={project.github} target="_blank" rel="noreferrer" >GitHub</a>
                 </div>
             </div>
         </div>
