@@ -6,10 +6,18 @@ import NoSQLAPIscreenshot from '../assets/projectPhotos/NoSQLAPIscreenshot.jpg';
 import ORMAPI from '../assets/projectPhotos/ORM-API.jpg'
 import PotItLikeItsHot from '../assets/projectPhotos/PotItLikeItsHot.jpg';
 import SVGLogoGen from '../assets/projectPhotos/SVGLogoGen.jpg'
+import QuackCraft from '../assets/projectPhotos/QuackCraft.png'
 
 
 const Portfolio = () => {
     const [projects] = useState([
+        {
+            title: 'QUACKCRAFT-3D-PRINTING',
+            github: 'https://github.com/Brandonk1023/QUACKCRAFT-3D-PRINTING',
+            link: '',
+            content: 'This is a 3D printing application for users to use for resources and learning.',
+            image: QuackCraft,
+        },
             {
                 title: 'FoodWillBeerUsApart',
                 github: 'https://github.com/Brandonk1023/FoodWillBeerUsApart',
