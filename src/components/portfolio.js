@@ -14,7 +14,7 @@ const Portfolio = () => {
         {
             title: 'QUACKCRAFT-3D-PRINTING',
             github: 'https://github.com/Brandonk1023/QUACKCRAFT-3D-PRINTING',
-            link: '',
+            link: 'https://gentle-river-99860-f681a35f9ec5.herokuapp.com/',
             content: 'This is a 3D printing application for users to use for resources and learning.',
             image: QuackCraft,
         },
