@@ -4,8 +4,8 @@ const Navigation =  ({ selectedSection, setSelectedSection}) => {
     const sections = ['About Me', 'Portfolio', 'Contact', 'Resume']
 
     return (
-        <nav class="flex justify-center">
-            <ul class=" flex flex-row">
+        <nav>
+            <ul class=" flex flex-row justify-around">
                 {sections.map(section => (
                     <li key={section}>
                         <button class="btn btn-primary btn-outline" onClick={() => setSelectedSection(section)} >
