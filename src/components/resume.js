@@ -6,9 +6,8 @@ const Resume = () => {
     <div className="flex flex-col mx-auto">
       <h2 className="flex justify-center">resume</h2>
       <p>
-        {" "}
         Thanks for your interest in my resume. You can download a PDF copy by
-        clicking{" "}
+        clicking
         <a
           className="link link-primary"
           href={resume}
@@ -18,23 +17,50 @@ const Resume = () => {
         </a>
         .
       </p>
-      <div>
+      <div className="flex flex-col mx-auto">
         <p>
-          Technical Skills
-          <h3>Frameworks/Tools:</h3>
+          <h3 className="flex justify-center">Technical Skills</h3>
+          <section className="card w-96 glass">
+          <h4>Frameworks/Tools:</h4>
           <ul>
-            <li>
-              jQuery, Node.js, Express.js, MySQL, GitHub, BootStrap, Handlebars,
-              MongoDB, npm, Insomnia, VS Code, Heroku, Sequelize,REACT,
-              Tailwind, DaisyUI, MaterialUI, ChakraUI
-            </li>
+            <li>React</li>
+            <li>jQuery</li>
+            <li>Node.js</li>
+            <li>Express.js</li>
+            <li>MySQL</li>
+            <li>GitHub</li>
+            <li>BootStrap</li>
+            <li>Handlebars</li>
+            <li>MongoDB</li>
+            <li>npm</li>
+            <li>Insomnia</li>
+            <li>VsCode</li>
+            <li>Heroku</li>
+            <li>Sequelize</li>
+            <li>Tailwind</li>
+            <li>DaisyUI</li>
+            <li>MaterialUI</li>
+            <li>ChakraUI</li>
           </ul>
-          <h3>Software Languages:</h3>
+          </section>
+          <section className="card w-96 glass">
+          <h4>Software Languages:</h4>
           <ul>
-            JavaScript, HTML, CSS, SQL, Python
-            <h3>Operating Systems:</h3>
-            Windows,Debian Linux, Mac
+            <li>JavaScript</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>SQL</li>
+            <li>Python</li>
           </ul>
+          </section>
+          <section className="card w-96 glass">
+          <h4>Operating Systems:</h4>
+          <ul>
+            <li>Windows</li>
+            <li>Debian Linux</li>
+            <li>Mac</li>
+          </ul>
+          </section>
         </p>
       </div>
     </div>
