@@ -2,10 +2,12 @@ import React from 'react';
 
 const AboutMe =  () => {
     return (
-        <section>
-            <div>
+        <section class="flex flex-col">
+            <div class="flex flex-col justify-center">
                 <h2>About Me</h2>
-                <p>Hi my name is Brandon Kilgore. I'm an Atlanta-based full stack developer, and graduated from the Georgia Tech Fullstack coding bootcamp. I'm interested in backend technologie, cyber security, and additive manufacturing technologies.</p>
+                <p>
+                Passionate and solutions-driven web development graduate from Georgia Tech. Experience in tech support utilizing a combination of strong communication, collaboration, problem-solving, and analytical skills. Strong ability to learn, design, build, and maintain websites. I have experience working in a fast-paced and diverse team environment leading and collaborating to achieve team goals. I have strong interest in backend technologies, application security, cloud technology, and mobile technology.
+                </p>
             </div>
         </section>
     )
