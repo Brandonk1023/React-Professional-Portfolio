@@ -1,13 +1,11 @@
 import React from 'react';
 import headShot from '../assets/HSSquare.jpg';
+import logo from '../assets/Black logo - no background.png'
 const Header = () => {
     return (
-        <header class="flex flex-row bg-gradient-to-r from-violet-500 to-fuchsia-500">
+        <header class="flex flex-row bg-gradient-to-r from-violet-500 to-fuchsia-500 justify-center">
             <img className='w-64 rounded-full' src={headShot} alt='Headshot of Brandon'/>
-            <div class="flex flex-col justify-center">
-            <h1 class="text-center align-top">Brandon Kilgore </h1>
-            <p class="text-center">Full Stack Developer</p>
-            </div>
+            <img  className="max-w-xl" src={logo} alt='Brand Logo'/>
         </header>
     )
 }

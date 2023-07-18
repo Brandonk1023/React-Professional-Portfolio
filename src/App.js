@@ -16,7 +16,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <Header />
+      <Header className='flex' />
       <Navigation selectedSection={selectedSection} setSelectedSection={setSelectedSection} />
       <main className='flex'>
         {selectedSection === 'About Me' && <AboutMe />}
