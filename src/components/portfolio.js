@@ -64,7 +64,7 @@ const Portfolio = () => {
 
     return (
         <section className="flex flex-col mx-auto">
-           <h2>Portfolio</h2>
+           <h2 className="flex justify-center">Portfolio</h2>
             <div className="flex flex-col gap-4">
                 {projects.map((project, index) => (
                     <Project key={index} project={project} />
