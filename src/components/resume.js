@@ -18,7 +18,7 @@ const Resume = () => {
         .
       </p>
       <div className="flex flex-col mx-auto">
-        <p>
+        <p className="flex flex-col gap-4">
           <h3 className="flex justify-center">Technical Skills</h3>
           <section className="card w-96 glass">
           <h4 className="flex justify-center">Frameworks/Tools:</h4>
