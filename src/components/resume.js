@@ -21,7 +21,7 @@ const Resume = () => {
         <p>
           <h3 className="flex justify-center">Technical Skills</h3>
           <section className="card w-96 glass">
-          <h4>Frameworks/Tools:</h4>
+          <h4 className="flex justify-center">Frameworks/Tools:</h4>
           <ul>
             <li>React</li>
             <li>jQuery</li>
@@ -44,7 +44,7 @@ const Resume = () => {
           </ul>
           </section>
           <section className="card w-96 glass">
-          <h4>Software Languages:</h4>
+          <h4 className="flex justify-center">Software Languages:</h4>
           <ul>
             <li>JavaScript</li>
             <li>HTML</li>
@@ -54,7 +54,7 @@ const Resume = () => {
           </ul>
           </section>
           <section className="card w-96 glass">
-          <h4>Operating Systems:</h4>
+          <h4 className="flex justify-center">Operating Systems:</h4>
           <ul>
             <li>Windows</li>
             <li>Debian Linux</li>
