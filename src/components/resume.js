@@ -4,7 +4,7 @@ import resume from "../assets/Resume.pdf";
 const Resume = () => {
   return (
     <div className="flex flex-col mx-auto">
-      <h2 className="flex justify-center m-4">resume</h2>
+      <h2 className="flex justify-center m-4 text-2xl">resume</h2>
       <p>
         Thanks for your interest in my resume. You can download a PDF copy by
         clicking
@@ -19,8 +19,8 @@ const Resume = () => {
       </p>
       <div className="flex flex-col mx-auto">
         <p className="flex flex-col gap-4">
-          <h3 className="flex justify-center mt-6">Technical Skills</h3>
-          <section className="card w-96 glass p-4">
+          <h3 className="flex justify-center mt-6 text-xl">Technical Skills</h3>
+          <section className="card w-96 glass p-4 text-lg">
           <h4 className="flex justify-center">Frameworks/Tools:</h4>
           <ul>
             <li>React</li>
@@ -43,7 +43,7 @@ const Resume = () => {
             <li>ChakraUI</li>
           </ul>
           </section>
-          <section className="card w-96 glass p-4">
+          <section className="card w-96 glass p-4 text-lg">
           <h4 className="flex justify-center">Software Languages:</h4>
           <ul>
             <li>JavaScript</li>
@@ -53,7 +53,7 @@ const Resume = () => {
             <li>Python</li>
           </ul>
           </section>
-          <section className="card w-96 glass p-4 mb-4">
+          <section className="card w-96 glass p-4 mb-4 text-lg">
           <h4 className="flex justify-center">Operating Systems:</h4>
           <ul>
             <li>Windows</li>
