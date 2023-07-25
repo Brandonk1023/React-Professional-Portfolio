@@ -2,7 +2,7 @@ import React from 'react';
 
 const Project = ({ project }) => {
     return (
-        <div className="flex flex-row card w-96 glass justify-around p-4">
+        <div className="flex flex-row card h-64 w-11/12 glass justify-around p-4">
             <img className="w-40 rounded m-4" src={project.image} alt={project.title} />
             <div class="flex flex-col justify-around">
                 <h2>{project.title}</h2>
