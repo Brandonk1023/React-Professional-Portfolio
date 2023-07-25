@@ -6,16 +6,16 @@ const Resume = () => {
     <div className="flex flex-col mx-auto">
       <h2 className="flex justify-center m-4 text-2xl">resume</h2>
       <p>
-        Thanks for your interest in my resume. You can download a PDF copy by
-        clicking
+        Thanks for your interest in my resume. You can download a PDF copy by{''}
+        <button className="btn btn-primary m-1">
         <a
-          className="link link-primary"
           href={resume}
           download="Brandon Kilgore Resume.pdf"
         >
-          here
+          Clicking here
         </a>
-        .
+        </button>
+        
       </p>
       <div className="flex flex-col mx-auto">
         <p className="flex flex-col gap-4">
