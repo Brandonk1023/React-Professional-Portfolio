@@ -18,7 +18,7 @@ const App = () => {
     <div className="App">
       <Header />
       <Navigation selectedSection={selectedSection} setSelectedSection={setSelectedSection} />
-      <main className='flex'>
+      <main className='grid-cols-1 grid justify-center'>
         {selectedSection === 'About Me' && <AboutMe />}
         {selectedSection === 'Portfolio' && <Portfolio />}
         {selectedSection === 'Contact' && <Contact />}
