@@ -7,7 +7,7 @@ const Resume = () => {
       <h2 className="flex justify-center m-4 text-3xl">Resume</h2>
       <p>
         Thanks for your interest in my resume. You can download a PDF copy by{''}
-        <button className="btn btn-accent ml-2">
+        <button className="btn btn-accent w-40 ml-2">
         <a
           href={resume}
           download="Brandon Kilgore Resume.pdf"
