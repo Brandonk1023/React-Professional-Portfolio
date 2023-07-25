@@ -3,11 +3,11 @@ import resume from "../assets/Resume.pdf";
 
 const Resume = () => {
   return (
-    <div className="flex flex-col mx-auto">
+    <div className="grid mx-auto">
       <h2 className="flex justify-center m-4 text-2xl">resume</h2>
       <p>
         Thanks for your interest in my resume. You can download a PDF copy by{''}
-        <button className="btn btn-secondary m-1">
+        <button className="btn btn-secondary ml-2">
         <a
           href={resume}
           download="Brandon Kilgore Resume.pdf"
@@ -17,9 +17,9 @@ const Resume = () => {
         </button>
         
       </p>
-      <div className="flex flex-col mx-auto">
-        <p className="flex flex-col gap-4">
-          <h3 className="flex justify-center mt-6 text-xl">Technical Skills</h3>
+      <div className="grid justify-center mx-auto">
+      <h3 className="flex justify-center my-6 text-xl">Technical Skills</h3>
+        <div className="grid grid-cols-2 gap-4">
           <section className="card w-96 glass p-4 text-lg">
           <h4 className="flex justify-center">Frameworks/Tools:</h4>
           <ul>
@@ -61,7 +61,7 @@ const Resume = () => {
             <li>Mac</li>
           </ul>
           </section>
-        </p>
+        </div>
       </div>
     </div>
   );
