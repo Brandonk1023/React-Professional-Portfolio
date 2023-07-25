@@ -64,7 +64,7 @@ const Portfolio = () => {
 
     return (
         <section className='grid justify-center'>
-           <h2 className="flex justify-center m-4 text-2xl">Portfolio</h2>
+           <h2 className="flex justify-center m-4 text-3xl">Portfolio</h2>
             <div className="grid grid-cols-2 gap-4 p-4 m-2">
                 {projects.map((project, index) => (
                     <Project key={index} project={project} />
