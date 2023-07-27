@@ -8,17 +8,17 @@ const Contact = () => {
             <p className='pb-4 indent-8 text-xl text-left'>Thank you for your interest in contacting me.  If you would like to contact me please reach out to me using any of the following channels below.  I look foward to hearing from you!</p>
             <ul className="flex flex-row  flex justify-center gap-4">
                 <li>
-                    <button className='btn btn-primary w-fit'>
+                    <button className='btn btn-primary lg:w-32 sm:w-3/4'>
                         <a href='https://www.linkedin.com/in/charles-kilgore-69695b135/'>LinkedIn</a>
                     </button>
                 </li>
                 <li>
-                    <button className='btn btn-secondary w-fit'>
+                    <button className='btn btn-secondary lg:w-32 sm:w-3/4'>
                         <a href='https://github.com/Brandonk1023'>GitHub</a>
                     </button>
                 </li>
                 <li>
-                    <button className='btn btn-accent w-fit'>
+                    <button className='btn btn-accent lg:w-32 sm:w-3/4'>
                         <a href='mailto:brandonk1023@gmail.com'>Email</a>
                     </button>
                 </li>
