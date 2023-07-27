@@ -8,7 +8,7 @@ const Navigation =  ({ selectedSection, setSelectedSection}) => {
             <ul class=" flex flex-row justify-center gap-6 m-1">
                 {sections.map(section => (
                     <li key={section}>
-                        <button class="btn btn-primary btn-outline w-fit" onClick={() => setSelectedSection(section)} >
+                        <button class="btn btn-primary btn-outline w-5/6" onClick={() => setSelectedSection(section)} >
                             {section}
                         </button>
                     </li>

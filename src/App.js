@@ -18,13 +18,13 @@ const App = () => {
     <div className="App">
       <Header />
       <Navigation selectedSection={selectedSection} setSelectedSection={setSelectedSection} />
-      <main className='grid-cols-1 grid justify-center'>
+      <main className='grid-cols-1 grid justify-center min-h-screen'>
         {selectedSection === 'About Me' && <AboutMe />}
         {selectedSection === 'Portfolio' && <Portfolio />}
         {selectedSection === 'Contact' && <Contact />}
         {selectedSection === 'Resume' && <Resume />}
       </main>
-      <Footer />
+      <Footer className="" />
     </div>
   );
 }

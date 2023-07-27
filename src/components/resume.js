@@ -19,7 +19,7 @@ const Resume = () => {
       </p>
       <div className="grid justify-center mx-auto">
       <h3 className="bg-secondary rounded-md text-black text-2xl flex justify-center my-6">Technical Skills</h3>
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid lg:grid-cols-2 sm:grid-cols-1 gap-4">
           <section className="card w-96 glass p-4 text-lg">
           <h4 className="flex justify-center text-xl">Frameworks/Tools:</h4>
           <ul>
