@@ -1,9 +1,7 @@
 # React-Professional-Portfolio
-A professional portfolio page.
-
 ## Description
 
-This is a REACT portfolio application page.  This was created to allow users to view my portfolio in an easily accessible way.  The building of the porfolio allowed me to practice using REACT and bootstrap technologies to present myself a professional manner.
+This application is a React portfolio application to allow users to easily view my projects.  This application made using React, Tailwind, and DaisyUI.  The reason behind making this application is to allow users a quicker, easier way to view projects, and to also practice React front-end and UI development.
 
 ## Table of Contents
 
@@ -24,10 +22,12 @@ https://whispering-taiga-32488-3bcd433c5113.herokuapp.com/
 
 To use this application the user only needs to click on the deployment link above.  They will then be taken to the deployed portfolio application page.
 
-From there the user can navigate to different sections to view different parts of site.
+From there the user can navigate to different sections to view different parts of site. From the different sections they are provided with information about me, projects, and access to download a pdf of me resume.
 
 
-![About Me Screenshot](assets/AboutMeScreenShot.jpg)
+![Portfolio Page](assets/PortfolioPage.jpg)
+![Resume Page](assets/ResumePage.jpg)
+
 
 
 ## Credits
